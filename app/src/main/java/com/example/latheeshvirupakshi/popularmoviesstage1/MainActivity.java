@@ -38,6 +38,7 @@ public class MainActivity extends ActionBarActivity {
     private static final String LOG_TAG = MainActivity.class.getSimpleName();
 
     private final String DYNAMIC_MOVIE_URL="http://api.themoviedb.org/3/discover/movie?";
+    private final String IMAGE_URL="http://image.tmdb.org/t/p/w500/";
     private String sort = null;
 
     //Enter your api key here after api_key= "&api_key=("your api key")"
@@ -150,7 +151,7 @@ public class MainActivity extends ActionBarActivity {
 
                             String title = post.optString("title");
                             String poster = post.optString("poster_path");
-                            String PosterPath = "http://image.tmdb.org/t/p/w500/" + poster;
+                            String PosterPath = IMAGE_URL + poster;
                             String year = post.optString("release_date");
                             String description = post.optString("overview");
                             String rating = post.optString("vote_average");
