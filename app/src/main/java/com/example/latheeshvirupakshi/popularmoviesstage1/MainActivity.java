@@ -42,7 +42,7 @@ public class MainActivity extends ActionBarActivity {
     private String sort = null;
 
     //Enter your api key here after api_key= "&api_key=("your api key")"
-    private String api_key ="&api_key=7144bb019f586b0c66a1ebc496c4c30c";
+    private String api_key ="&api_key=(enter your api key)";
 
 // Creating objects for gridview, adapter and movie array
     private GridView mgridView;
