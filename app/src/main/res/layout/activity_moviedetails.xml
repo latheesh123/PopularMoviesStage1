@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+      android:fillViewport="true"
+    android:background="@color/colorAccent">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:text="@string/textview_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:layout_gravity="center"
+        android:textSize="@dimen/size_text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:id="@+id/poster"
+        android:layout_weight="0.64" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:layout_gravity="center"
+        style="@style/foodRatingBar"
+          />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:text="@string/released_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/releasedate"
+        android:height="30dp"
+        android:textSize="@dimen/size_text"
+        android:paddingLeft="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        />
+    <TextView
+        android:text="@string/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date"
+        android:height="30dp"
+        android:textSize="@dimen/size_text"
+        android:paddingLeft="@dimen/text_padding"
+        />
+</LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/overview"
+            android:textSize="@dimen/size_text"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+              android:layout_gravity="center"
+            />
+    <TextView
+        android:text="@string/desc_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/description"
+        android:textSize="@dimen/size_text"
+        android:paddingLeft="@dimen/desc_padding"
+
+        />
+    </LinearLayout>
+
+</ScrollView>

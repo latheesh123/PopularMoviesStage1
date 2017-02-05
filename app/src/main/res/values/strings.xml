@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">PopularMoviesStage1</string>
+    <string name="settings">settings</string>
+    <string name="ratingpref">pref_rating</string>
+
+    <string name="popular">popular</string>
+    <string name="rating">rating</string>
+
+    <string name="pref_title">Sort by</string>
+    <string name="pref_sort_label">Sort by</string>
+    <string name="pref_sort_label_popular">Popularity</string>
+    <string name="pref_sort_label_rating">Rating</string>
+
+
+    <string name="pref_key" translatable="false">sort</string>
+    <string name="pref_default" translatable="false">sort_by=popularity.desc</string>
+    <string name="pref_popular" translatable="false">sort_by=popularity.desc</string>
+    <string name="pref_rating" translatable="false">sort_by=vote_average.desc&amp;vote_count.gte=10</string>
+
+    <string name="pref_sort_key" translatable="false">sort</string>
+    <string name="pref_sort_default" translatable="false">sort_by=popularity.desc</string>
+    <string name="pref_sort_popular" translatable="false">sort_by=popularity.desc</string>
+    <string name="pref_sort_rating" translatable="false">sort_by=vote_average.desc&amp;vote_count.gte=10</string>
+
+    <string name="title_activity_movie_detail">MovieDetailActivity</string>
+
+    <string name="Sort">Sortby</string>
+    <string name="keypref">key</string>
+    <string name="released_date">Released Date :</string>
+    <string name="date">Date</string>
+    <string name="overview">Overview</string>
+    <string name="textview_title">TextView</string>
+    <string name="desc_text">TextView</string>
+
+
+
+</resources>
